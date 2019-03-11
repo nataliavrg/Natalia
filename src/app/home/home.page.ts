@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+nome:string = "DOG";
+
+clicar(): void{
+
+alert("AU AU");
+}
 
 }
