@@ -6,11 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-nome:string = "DOG";
+  valor1:number = 0;
+  valor2:number = 0;
 
-clicar(): void{
-
-alert("AU AU");
-}
+  clicar(): void{
+    let total = Number(this.valor1) + Number(this.valor2);
+    alert('A soma é: '+total);
+  }
 
 }
